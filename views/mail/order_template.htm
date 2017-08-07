@@ -1,0 +1,11 @@
+subject = "Your Order"
+==
+Dear {{ data.recip.name }},
+
+Your new order id is {{ data.orderid }}.
+( This output is for plain text email )
+==
+<p>Dear {{ data.recip.name }},</p>
+
+<p>Your new order id is {{ data.orderid }}.</p>
+<p>( This output is for rich text email )</p>
